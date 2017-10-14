@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
     
-<head>
+    <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="format-detection" content="telephone=no">
@@ -214,7 +214,7 @@
                                             <!-- /Blog -->
                                             <!-- Donate -->
                                             <li class="donate-btn menu-item">
-                                                <a href="donate-now.html">Give</a>
+                                                <a href="/donate">Give</a>
                                             </li>
                                             <!-- /Donate -->
                                         </ul>
@@ -346,7 +346,7 @@
                                     <!-- /Blog -->
                                     <!-- Donate -->
                                     <li class="donate-btn menu-item">
-                                        <a href="donate-now.html">Give</a>
+                                        <a href="/donate">Give</a>
                                     </li>
                                     <!-- /Donate -->
                                 </ul>
@@ -414,20 +414,22 @@
                 <!-- /Breadcrumbs -->
                 <!-- Page Content Wrap -->
                 <div class="page_content_wrap page_paddings_no">
-                    <script src="https://js.paystack.co/v1/inline.js"></script>
+                  <!--  <script src="https://js.paystack.co/v1/inline.js"></script>
                         <div id="paystackEmbedContainer"></div>
                             <script>
                                 PaystackPop.setup({
-                                key: 'pk_test_221221122121',
-                                email: 'customer@email.com',
-                                amount: 10000,
+                                key: 'pk_test_f49f4e33b47948bdb39037b6c99325de636e6b85',
+                                email: 'give@rhythm5fellowship.com',
+                                amount: 5000,
                                 container: 'paystackEmbedContainer',
                                 
                                 callback: function(response){
                                         alert('successfully subscribed. transaction ref is ' + response.reference);
                                     },
                                 });
-                            </script>
+                            </script>-->
+
+                            <iframe src="https://paystack.com/pay/rhythm5" width="100%" height="100%"></iframe>
 
                 <!-- Footer -->
                 <footer class="footer_wrap widget_area scheme_original">
